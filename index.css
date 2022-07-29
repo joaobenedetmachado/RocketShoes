@@ -127,7 +127,7 @@ section {
 
 .principal {
     width: 100vh;
-    height: 45vh;
+    height: 40vh;
 
     align-items: center;
     justify-content: center;
@@ -140,11 +140,32 @@ section {
     display: flex;
     width: 100vh;
     height: 17vh;
+    margin-top: 35px;
     flex-direction: row;
 }
 
-.pic1, .pic2, .pic3 {
+.pic2 {
     margin: 0px 10px ;
+    height: 200px;
+    width: 280px;
+}
+.pic3 {
+    margin: 0px 10px ;
+    height: 200px;
+    width: 380px;
+}
+.pic1{
+    margin: 0px 10px ;
+    height: 200px;
+    width: 300px;
+}
+.pic3:hover, .pic2:hover, .pic1:hover {
+    
+    border-bottom: 5px solid red;
+}
+#imagem {
+    height: 500px;
+    width: 800px;
 }
 
 .main {
@@ -198,4 +219,9 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+}
+
+button {
+    border: none;
+    background-color: #c5c5c5;
 }
